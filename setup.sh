@@ -9,6 +9,9 @@ set -x
 # Ensure config directory exists
 mkdir -p ~/.config
 
+# bin file
+[ ! -e ~/bin/createCMakeList.py ] && ln -s "$PWD/bin/createCMakeList.py" ~/bin/createCMakeList.py
+[ ! -e ~/bin/templates ] && ln -s "$PWD/bin/templates" ~/bin/templates
 # Link Git config if it doesn’t exist
 [ ! -e ~/.config/git ] && ln -s "$PWD/config/git" ~/.config/git
 # tmux setup
