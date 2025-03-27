@@ -11,3 +11,5 @@ mkdir -p ~/.config
 
 # Link Git config if it doesn’t exist
 [ ! -e ~/.config/git ] && ln -s "$PWD/config/git" ~/.config/git
+# tmux setup
+[ ! -e ~/.tmux.conf ] && ln -s "$PWD/tmux.conf" ~/.tmux.conf
