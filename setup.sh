@@ -18,3 +18,7 @@ mkdir -p ~/.config
 [ ! -e ~/.emacs.local ] && ln -s "$PWD/emacs.local" ~/.emacs.local
 [ ! -e ~/.config/emacs-custom.el ] && ln -s "$PWD/config/emacs-custom.el" ~/.config/emacs-custom.el
 [ ! -e ~/.config/emacs ] && ln -s "$PWD/config/emacs" ~/.config/emacs
+# kitty
+[ ! -e ~/.config/kitty ] && ln -s "$PWD/config/kitty" ~/.config/kitty
+# nvim
+[ ! -e ~/.config/nvim ] && ln -s "$PWD/config/nvim" ~/.config/nvim
