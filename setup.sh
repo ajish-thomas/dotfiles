@@ -13,3 +13,8 @@ mkdir -p ~/.config
 [ ! -e ~/.config/git ] && ln -s "$PWD/config/git" ~/.config/git
 # tmux setup
 [ ! -e ~/.tmux.conf ] && ln -s "$PWD/tmux.conf" ~/.tmux.conf
+# emacs
+[ ! -e ~/.emacs ] && ln -s "$PWD/emacs" ~/.emacs
+[ ! -e ~/.emacs.local ] && ln -s "$PWD/emacs.local" ~/.emacs.local
+[ ! -e ~/.config/emacs-custom.el ] && ln -s "$PWD/config/emacs-custom.el" ~/.config/emacs-custom.el
+[ ! -e ~/.config/emacs ] && ln -s "$PWD/config/emacs" ~/.config/emacs
